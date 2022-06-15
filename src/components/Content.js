@@ -4,10 +4,15 @@ import Card from "./Card.js"
 
 const travelCards = data.map(travel => {
     return (
-        <Card
-        key={travel.id}
-        data={travel}
-        />
+        <div>
+            <Card
+            key={travel.id}
+            data={travel}
+            />
+            <hr className="divider"/>
+
+        </div>
+        
     )
 }
 

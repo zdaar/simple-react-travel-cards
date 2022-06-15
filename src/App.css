@@ -18,6 +18,7 @@ nav {
   color:white;
   font-weight: 500;
   padding: 15px;
+  margin-bottom: 27px;
 
 }
 
@@ -28,19 +29,18 @@ nav > img {
 
 
 div.card {
-  display:flex;
-  flex-direction: row;
-  padding:40px;
-  border-bottom: 1px solid #F5F5F5;
+  float:left;
+  padding: 18px 40px 18px 40px;
+  
 }
 
 div.card--content {
-  display:flex;
-  flex-direction: column;
-  padding:40px;
+
+  /* padding:40px; */
 }
 
 .card--picture {
+  float: left;
   height: 168px;
   width: 125px;
   border-radius: 5px;
@@ -79,4 +79,11 @@ div.card--content > h1 {
 
 p.card--content-description {
   color: #2B283A;
+}
+
+.divider {
+  /* border: 1px solid #F5F5F5; */
+  border: 1px solid black;
+  margin-left:40px;
+  margin-right:40px;
 }
