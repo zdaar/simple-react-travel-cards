@@ -14,5 +14,5 @@ const travelCards = data.map(travel => {
   )
 
 export default function Content() {
-    return ({travelCards})
+    return (travelCards)
     }

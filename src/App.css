@@ -1,9 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin:0;
+  font-family: 'Inter';
+  font-style: normal
 }
 
 nav {
   height: 55px;
   background: #F55A5A;
+  color:white;
+  font-weight: 500;
+
+}
+
+div.card {
+  display:flex;
+  flex-direction: row;
+  padding:40px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+div.card--content {
+  display:flex;
+  flex-direction: column;
+  padding:40px;
+}
+
+.card--picture {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+div.card--location {
+  display:flex;
+  flex-direction: row;
+  font-weight: 500;
+}
+
+.card--location-logo {
+  width: 7px;
+  height: 9.55px;
+}
+
+.card--location-country {
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.card--content--travel-dates {
+  font-weight: bold;
+
+}
+
+div.card--location > span > a {
+  color: #918E9B;
+}
+
+div.card--content > h1 {
+  font-weight: bold;
 }
