@@ -15,8 +15,8 @@ export default function Card(props) {
           <span><a href={props.data.googleMapsUrl}>View on Google Maps</a></span>
         </div>
         <h1>{props.data.title}</h1>
-        <p className="card--content--travel-dates">{props.data.startDate + " - " + props.data.endDate}</p>
-        <p>{props.data.description}</p>
+        <p className="card--content-travel-dates">{props.data.startDate + " - " + props.data.endDate}</p>
+        <p className="card--content-description">{props.data.description}</p>
       </div>
     </div>
   )

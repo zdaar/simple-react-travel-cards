@@ -4,16 +4,28 @@
   box-sizing: border-box;
   margin:0;
   font-family: 'Inter';
+  font-weight: 400;
   font-style: normal
 }
 
 nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 55px;
   background: #F55A5A;
   color:white;
   font-weight: 500;
+  padding: 15px;
 
 }
+
+nav > img {
+  margin-right: 7px;
+}
+
+
 
 div.card {
   display:flex;
@@ -50,9 +62,9 @@ div.card--location {
   letter-spacing: 0.17em;
 }
 
-.card--content--travel-dates {
+.card--content-travel-dates {
   font-weight: bold;
-
+  font-weight: 700;
 }
 
 div.card--location > span > a {
@@ -61,4 +73,10 @@ div.card--location > span > a {
 
 div.card--content > h1 {
   font-weight: bold;
+  font-weight: 700;
+
+}
+
+p.card--content-description {
+  color: #2B283A;
 }
