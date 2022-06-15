@@ -19,71 +19,92 @@ nav {
   font-weight: 500;
   padding: 15px;
   margin-bottom: 27px;
-
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
 
 nav > img {
   margin-right: 7px;
 }
 
-
+div.content {
+  width: 550px;
+  height: 704px;
+  margin: auto;
+}
 
 div.card {
   float:left;
   padding: 18px 40px 18px 40px;
-  
+  margin: auto;
+
 }
 
 div.card--content {
-
-  /* padding:40px; */
+  display:flex;
 }
 
-.card--picture {
-  float: left;
+img.card--picture {
   height: 168px;
   width: 125px;
   border-radius: 5px;
 }
 
-div.card--location {
-  display:flex;
-  flex-direction: row;
-  font-weight: 500;
+.card--textbox {
+  padding: 20px 0px 20px 20px;
 }
 
-.card--location-logo {
+div.card--text-locationbox {
+    display:flex;
+    align-items: center;
+    font-weight: 500;
+  }
+
+img.card--text-location-logo {
   width: 7px;
-  height: 9.55px;
+  margin-right:4px;
 }
 
-.card--location-country {
+span.card--text-location-country {
   line-height: 12px;
   letter-spacing: 0.17em;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-right: 12px;
 }
 
-.card--content-travel-dates {
-  font-weight: bold;
-  font-weight: 700;
-}
-
-div.card--location > span > a {
+div.card--text-locationbox > a {
   color: #918E9B;
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration-line: underline;
 }
 
-div.card--content > h1 {
+h1.card--text-title {
+  padding: 7px 0px 5px 0px;
   font-weight: bold;
   font-weight: 700;
-
+  font-size: 25px;
+  line-height: 30px;
 }
 
-p.card--content-description {
+p.card--text-traveldates {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
+
+p.card--text-description {
   color: #2B283A;
+  font-size: 10px;
+  line-height: 150%;
 }
 
-.divider {
-  /* border: 1px solid #F5F5F5; */
-  border: 1px solid black;
+hr.divider {
+  border: 1px solid #F5F5F5;
   margin-left:40px;
   margin-right:40px;
 }
